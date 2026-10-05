@@ -1,0 +1,26 @@
+{
+  "twin_r2": {
+    "energy": 0.9849142195693525,
+    "qos": 0.4326634547126924,
+    "exposure_log": 0.992497111021858,
+    "qos_MAE": 0.015184155783744012,
+    "energy_MAPE_pct": 0.8477399543314652
+  },
+  "optimisation": {
+    "scenarios": 120,
+    "energy_saving_pct": 24.751244190874843,
+    "exposure_reduction_pct": 75.12068022336267,
+    "qos_baseline_mean": 0.9947592208973648,
+    "qos_twin_mean": 0.9789608169025092,
+    "qos_twin_ge_target_pct": 97.5,
+    "avg_sleeping_cells": 3.3583333333333334,
+    "night_energy_saving_pct_0_6h": 36.27229652376492,
+    "peak_energy_saving_pct_12_21h": 12.78280987188155
+  },
+  "federated": {
+    "MAE_persistence_UEs": 1.8540696061131228,
+    "MAE_local_only_UEs": 1.5481568949432867,
+    "MAE_federated_FedAvg_UEs": 1.5598036932939006,
+    "MAE_centralised_UEs": 1.5694730493085076
+  }
+}
